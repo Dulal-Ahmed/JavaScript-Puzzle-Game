@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 10px;
+};
+h1{
+    font-size: 5vw;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.result p{
+    font-size: 3vw;
+}
+.result button{
+    font-size: 2vw;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+#show-showTime{
+    padding: 5px;
+}
+.container{
+  display: flex;
+  width: 100%;
+  padding:10px 30px;
+}
+.imgDivContainer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  border: 2px solid black;
+}
+.imgDivContainer .imgContainer{
+    width: 33.333%;
+}
+.cakeContainer{
+    width: 50%;
+}
+img {
+    width: 100%;
+}

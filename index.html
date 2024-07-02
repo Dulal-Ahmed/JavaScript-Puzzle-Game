@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Puzzle Game</title>
+</head>
+<body>
+    <header>
+         <h1>Match the puzzle within 100 seconds</h1>
+         <div class="result">
+            <p id="showResult">Click Strat Button to start Game</p>
+            <button onclick="startGame()">START</button>
+            <p id="showTime"></p>
+         </div>
+    </header>
+    <div class="container">
+         <div class="imgDivContainer">
+                                         <!--  9 1 4 2 5 8 6 3 7 -->
+            <div  class="imgContainer" ondrop="imageDrop(event)" ondragover="whenimageOver(event)"><img src="./piece 9.png" class="image9" alt="images" id="image1" ondragstart="imageDragStart(event)" draggable="true"></div>
+            <div  class="imgContainer" ondrop="imageDrop(event)" ondragover="whenimageOver(event)"><img src="./piece 4.png" class="image4" alt="images" id="image2" ondragstart="imageDragStart(event)" draggable="true"></div>
+            <div  class="imgContainer" ondrop="imageDrop(event)" ondragover="whenimageOver(event)"><img src="./piece 2.png" class="image2" alt="images" id="image3" ondragstart="imageDragStart(event)" draggable="true"></div>
+            <div  class="imgContainer" ondrop="imageDrop(event)" ondragover="whenimageOver(event)"><img src="./piece 1.png" class="image1" alt="images" id="image4" ondragstart="imageDragStart(event)" draggable="true"></div>
+            <div  class="imgContainer" ondrop="imageDrop(event)" ondragover="whenimageOver(event)"><img src="./piece 5.png" class="image5" alt="images" id="image5" ondragstart="imageDragStart(event)" draggable="true"></div>
+            <div  class="imgContainer" ondrop="imageDrop(event)" ondragover="whenimageOver(event)"><img src="./piece 8.png" class="image8" alt="images" id="image6" ondragstart="imageDragStart(event)" draggable="true"></div>
+            <div  class="imgContainer" ondrop="imageDrop(event)" ondragover="whenimageOver(event)"><img src="./piece 6.png" class="image6" alt="images" id="image7" ondragstart="imageDragStart(event)" draggable="true"></div>
+            <div  class="imgContainer" ondrop="imageDrop(event)" ondragover="whenimageOver(event)"><img src="./piece 3.png" class="image3" alt="images" id="image8" ondragstart="imageDragStart(event)" draggable="true"></div>
+            <div  class="imgContainer" ondrop="imageDrop(event)" ondragover="whenimageOver(event)"><img src="./piece 7.png" class="image7" alt="images" id="image9" ondragstart="imageDragStart(event)" draggable="true"></div>
+         </div>
+         <div class="cakeContainer">
+            <img src="./cake.png" alt="cake">
+         </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
